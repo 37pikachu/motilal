@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Motilal</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+
+	<!-- NAVBAR -->
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="logo.png" height="40px"> LegendzHub</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="index1.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://paperfactorymnnit.pythonanywhere.com/" target="_blank">Paper Factory</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Menu
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">(this section is under dev)</a></li>
+            <li><a class="dropdown-item" href="#">Group Info</a></li>
+            <li><a class="dropdown-item" href="#">Teacher Info</a></li>
+            <!-- <li><hr class="dropdown-divider"></li> -->
+            <li><a class="dropdown-item" href="#">avii section</a></li>
+          </ul>
+        </li>
+        <li class="nav-item bton" style="padding-top: 4px">
+          <a href="#"><button type="button" href="index2.html" class="btn btn-primary">Study Mode</button></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- NAVBAR-ENDS -->
+
+<!-- CAROUSEL -->
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/w1.jpg" class="d-block w-100" alt="..." width="640" height="650">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>No idea what to put here</h5>
+        <p>Literally don't know. If you have any idea then please share.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/w2.jpg" class="d-block w-100" alt="..." width="640" height="650">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>पता नहीं यहाँ क्या रखा जाए</h5>
+        <p>अक्षरश: नहीं जानते। अगर आपके पास कोई विचार है तो कृपया साझा करें।</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/w3.jpg" class="d-block w-100" alt="..." width="640" height="650">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>इथे काय ठेवायचे ते सुचत नाही</h5>
+        <p>अक्षरशः माहित नाही. काही कल्पना असेल तर शेअर करा.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<hr>
+
+<!-- CAROUSEL-ENDS -->
+
+<!-- NOTICE BOARD -->
+
+	<div class="box-part box-part-home-latest ntc-brd">                      
+	    <marquee onmouseover="this.stop();" onmouseout="this.start();" direction="up" behavior="scroll" scrollamount="2" style="height:180px!important" white-space:normal!important="" class="latestPart">
+	    <p>
+	    <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+	    <content style="color:#012B55">G1 chemistry quiz is postponed till next class probably.&nbsp;</content>
+	     <!-- <a href="#"><strong>Read More&nbsp;</strong></a> -->
+       <p>
+	    <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+	    <content style="color:#012B55">EG assignment marks are deducted because according to sir we should make title box on every single page and the images should be bit more clear.&nbsp;</content>
+	    <!-- <a href="#"><strong>Read More&nbsp;</strong></a> -->
+	    <p><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+	    <content style="color:#012B55">EG quiz is scheduled on 19th feb. Questions will be of MCQ type.&nbsp;</content>                    
+      <!-- <a href="#"><strong>Read More&nbsp;</strong></a> -->
+      <p><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+      <!-- <a href="#"><strong>Read More&nbsp;</strong></a> -->
+      <content style="color:#012B55">Chemistry practical class on 14th feb is cancelled for G2. &nbsp;</content>
+      <p><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+      <content style="color:#012B55">C Lab class on 14th feb is cancelled for G1.&nbsp;</content>
+	    </marquee>
+
+	    <!-- <div class="align_right" style="margin-top:-20px!important">
+	    <a class="btn btn-primary archive-btn" style="z-index:1" href="/NoticeBoardArchive" type="button">Archive <i class="fa fa-arrow-circle-right"></i></a>
+	    </div> -->
+
+    </div>
+
+    <!-- NOTICE BOARD ENDS -->
+
+    <hr>
+
+    <!-- DROPDOWN MENU -->
+
+    <div class="drpdwn">
+<nav class="main-nav">
+  <ul class="main-nav-ul">
+    <li><a href="">Home</a></li>
+    <li><a href="">Physics<span class="sub-arrow"></span></a>
+      <ul>
+        <li><a href="https://drive.google.com/drive/folders/1AJJl1TMlqAWSxDoYjcliqn_jb07QCg14?usp=sharing" target="_blank">Quiz</a></li>
+        <li><a href="https://drive.google.com/drive/folders/14peegs9mw9o2ctMyKSFlgsKgO6fMLqLZ?usp=sharing" target="_blank">Assignments</a></li>
+        <li><a href="http://paperfactorymnnit.pythonanywhere.com/paper_mnnit/physicsI_notes/" target="_blank">Notes</a></li>
+        <li><a href="http://paperfactorymnnit.pythonanywhere.com/paper_mnnit/physicsI_books/" target="_blank">Books</a></li>
+      </ul>
+    </li>  
+    <li><a href="#">Chemistry<span class="sub-arrow"></span></a>
+      <ul>
+        <li><a href="https://drive.google.com/drive/folders/1OJz5l-SfzsE7XNqdcpUOkOjCm_i3VxEn?usp=sharing" target="_blank">Quiz</a></li>
+        <li><a href="https://drive.google.com/drive/folders/1n5SXApkA1H9O2hP-KDrfwNaYG6W-g6OV?usp=sharing" target="_blank">Assignments</a></li>
+        <li><a href="http://paperfactorymnnit.pythonanywhere.com/paper_mnnit/chem_notes/" target="_blank">Notes</a></li>
+        <li><a href="http://paperfactorymnnit.pythonanywhere.com/paper_mnnit/chem_tutsheets/" target="_blank">Lab Files and Tutorials</a></li>
+        <li><a href="http://paperfactorymnnit.pythonanywhere.com/paper_mnnit/chem_books/" target="_blank">Books</a></li>
+      </ul>
+    </li>
+    <li><a href="#">CSW<span class="sub-arrow"></span></a>
+      <ul>
+        <li><a href="https://drive.google.com/drive/folders/19SrIWcFXn7yudl-xjkDFd6r6dv-oBSyH?usp=sharing" target="_blank">Assignments</a></li>
+        <li><a href="http://paperfactorymnnit.pythonanywhere.com/paper_mnnit/csw_notes/" target="_blank">Notes</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Maths<span class="sub-arrow"></span></a>
+      <ul>
+        <li><a href="https://drive.google.com/drive/folders/17vWG63sekPgteLEk43GXf4TUVwSKICCk?usp=sharing" target="_blank">Quiz</a></li>
+        <li><a href="http://paperfactorymnnit.pythonanywhere.com/paper_mnnit/mathsI_notes/" target="_blank">Notes</a></li>
+        <li><a href="http://paperfactorymnnit.pythonanywhere.com/paper_mnnit/mathsI_books/" target="_blank">Books</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Computer Progamming<span class="sub-arrow"></span></a>
+      <ul>
+        <li><a href="https://drive.google.com/drive/folders/1Uep-wTjR1p3iz0j-CZ0VcaMez3GbYKVZ?usp=sharing" target="_blank">Quiz</a></li>
+        <li><a href="https://drive.google.com/drive/folders/1Z0G5nSlHxUteNk38V7yimYWUoxago-A-?usp=sharing" target="_blank">Lab Assignments</a></li>
+        <li><a href="http://paperfactorymnnit.pythonanywhere.com/paper_mnnit/comp_notes/" target="_blank" target="_blank">Notes</a></li>
+        <li><a href="http://paperfactorymnnit.pythonanywhere.com/paper_mnnit/comp_books/" target="_blank">Books</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+<hr>
+
+<!-- ABOUT ME -->
+
+<!-- <h2>About Me</h2>
+-->
+<section class="section about-section gray-bg" id="about">
+    <div class="container">
+        <div class="row align-items-center justify-content-around flex-row-reverse">
+            <div class="col-lg-6">
+                <div class="about-text">
+                    <h3 class="dark-color">About me.</h3>
+                    <h4 class="theme-color">First Year Student</h4>
+                    <p> Well I'm <strong class="theme-color">Pikachu Singh</strong> . I am a boy and a toy-lover.(do not dare to mix that)</p>
+                    <p>I made this website to gather all the things(as much as I can) and organize them in a presentable manner.</p>
+                    <div class="btn-bar">
+                        <a class="px-btn theme-t" href="cv.html" target="_blank">Link to my (empty)CV</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 text-center">
+                <div class="about-img">
+                    <img src="https://bootdey.com/img/Content/avatar/avatar1.png">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<hr>
+    <!-- <h3>hellllloooooooo</h3> -->
+<!-- <hr> -->
+<!-- ABOUT ME ENDS -->
+
+<!-- FOOTER -->
+
+<div class="container footer-cntn">
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="https://github.com" class="nav-link px-2 text-muted" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+      <li class="nav-item"><a href="https://facebook.com" class="nav-link px-2 text-muted" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+      <li class="nav-item"><a href="https://instagram.com" class="nav-link px-2 text-muted" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+      <li class="nav-item"><a href="https://linkedin.com" class="nav-link px-2 text-muted" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+    </ul>
+    <p class="text-center text-muted">© 2022 Company, Inc (just for the sake of formality)</p>
+  </footer>
+</div>
+
+<!-- FOOTER ENDS -->
+
+</body>
+</html>
